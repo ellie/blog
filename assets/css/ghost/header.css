@@ -36,7 +36,6 @@
 	word-break: break-word;
 }
 
-
 /* Primary Navigation
 /* ---------------------------------------------------------- */
 
@@ -249,10 +248,9 @@ body:not(.gh-head-open) .gh-burger:hover .gh-burger-inner::after {
         justify-content: space-between;
         user-select: none;
     }
-    #gh-head .gh-head-logo {
-		font-weight: 300;
-		font-size: 8.2rem;
-    }
+	.gh-head-logo {
+		font-size: 5rem;
+	}
     #gh-head .gh-head-logo img {
         max-height: 40px;
     }
