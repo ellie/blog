@@ -234,3 +234,15 @@ html,
         font-size: 1.6rem;
     }
 }
+
+@media (max-width: 700px) {
+	.gh-card-link {
+		flex-direction: column;
+	}
+	.gh-card-image {
+		width: 100%;
+	}
+	.gh-card-content {
+		max-width: 100%;
+	}
+}

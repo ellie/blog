@@ -357,3 +357,15 @@ body:not(.gh-head-open) .gh-burger:hover .gh-burger-inner::after {
         font-size: 6vmin;
     }
 }
+
+@media (max-width: 700px) {
+	.gh-head-brief {
+		flex-direction: column;
+		align-items: flex-start;
+		padding-top: 5px;
+		line-height: 1.2em;
+	}
+	.gh-head-desc{
+		line-height: 1.2em;
+	}
+}
