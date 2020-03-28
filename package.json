@@ -1,7 +1,7 @@
 {
-    "name": "ghost-starter-theme",
-    "description": "A custom theme for ghost",
-    "demo": "https://starter.ghost.io",
+    "name": "ellie.bike",
+    "description": "The theme for my blog :)",
+    "demo": "https://ellie.bike",
     "version": "1.0.0",
     "engines": {
         "ghost": ">=3.0.0",
