@@ -42,6 +42,12 @@ html,
     flex-direction: column;
 }
 
+.gh-title {
+	font-family: "Open Sans", sans-serif;
+	font-size: 5rem;
+	font-weight: 300;
+}
+
 .gh-page {
     padding: 0 4vw;
 }
