@@ -3,6 +3,11 @@
 /* Content grid
 /* ---------------------------------------------------------- */
 
+.gh-title {
+	font-weight: 400;
+	font-size: 5rem;
+}
+
 .gh-canvas {
     display: grid;
     grid-template-columns:
@@ -98,8 +103,8 @@
 .gh-canvas > ul,
 .gh-canvas > dl,
 .gh-canvas > p {
-    font-family: var(--font-serif);
-    font-weight: 400;
+    font-family: var(--font-sans-serif);
+    font-weight: 300;
     font-size: 2rem;
     line-height: 1.6em;
 }
