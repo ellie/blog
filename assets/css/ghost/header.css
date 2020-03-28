@@ -32,7 +32,7 @@
     padding: 10px 0;
     font-weight: 300;
     font-size: 10rem;
-    line-height: 1.2em;
+    line-height: 0.8em;
 	word-break: break-word;
 }
 
@@ -66,6 +66,42 @@
     box-shadow: 0 -1px 0 0 currentcolor inset;
 }
 
+
+/* Me
+/* ---------------------------------------------------------- */
+.gh-head-brief {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 2rem;
+}
+
+.gh-head-brief > * {
+	padding: 0 10px;
+}
+
+.gh-head-location::before {
+	content: "🌍";
+}
+.gh-head-occupation::before {
+	content: "👩‍💻";
+}
+.gh-head-hobby::before {
+	content: "🏍";
+}
+
+.gh-head-location, .gh-head-occupation{
+	display: inline-block;
+}
+
+.gh-head-desc {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 10px;
+	padding-top: 15px;
+	font-size: 2.5rem;
+}
 
 /* Secondary Navigation
 /* ---------------------------------------------------------- */
@@ -250,6 +286,10 @@ body:not(.gh-head-open) .gh-burger:hover .gh-burger-inner::after {
     }
 	.gh-head-logo {
 		font-size: 5rem;
+	}
+	.gh-head-desc, .gh-head-brief {
+		justify-content: left;
+		align-items: left;
 	}
     #gh-head .gh-head-logo img {
         max-height: 40px;
