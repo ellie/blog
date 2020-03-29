@@ -63,7 +63,7 @@
 }
 
 .gh-head-menu .nav-current a {
-    box-shadow: 0 -1px 0 0 currentcolor inset;
+    box-shadow: 0 -1px 0 0 var(--color-primary) inset;
 }
 
 
